@@ -1,0 +1,858 @@
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6M1HTYGP9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-N6M1HTYGP9');
+    </script>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
+    google.load("jquery", "1.3.2");
+    </script>
+    <link rel="icon" href="./figures/nvidia.png">
+</head>
+<!-- Global site tag (gtag.js)
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+ - Google Analytics -->
+<style type="text/css">
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+
+h1 {
+    font-weight: 300;
+    margin: 0.4em;
+}
+
+p {
+    margin: 0.2em;
+}
+
+.disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 20px;
+}
+
+video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+img.rounded {
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+a:link,
+a:visited {
+    color: #1367a7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #208799;
+}
+
+td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.layered-paper-big {
+    /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+        0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The top layer shadow */
+        5px 5px 0 0px #fff,
+        /* The second layer */
+        5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The second layer shadow */
+        10px 10px 0 0px #fff,
+        /* The third layer */
+        10px 10px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The third layer shadow */
+        15px 15px 0 0px #fff,
+        /* The fourth layer */
+        15px 15px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The fourth layer shadow */
+        20px 20px 0 0px #fff,
+        /* The fifth layer */
+        20px 20px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The fifth layer shadow */
+        25px 25px 0 0px #fff,
+        /* The fifth layer */
+        25px 25px 1px 1px rgba(0, 0, 0, 0.35);
+    /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+
+.layered-paper {
+    /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+        0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The top layer shadow */
+        5px 5px 0 0px #fff,
+        /* The second layer */
+        5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The second layer shadow */
+        10px 10px 0 0px #fff,
+        /* The third layer */
+        10px 10px 1px 1px rgba(0, 0, 0, 0.35);
+    /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.vert-cent {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+hr {
+    margin: 0;
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.rotate {
+    /* FF3.5+ */
+    -moz-transform: rotate(-90.0deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(-90.0deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(-90.0deg);
+    /* IE6,IE7 */
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+    /* IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+    /* Standard */
+    transform: rotate(-90.0deg);
+}
+
+c {
+    white-space: nowrap;
+    writing-mode: tb-rl;
+    transform: rotate(-180.0deg);
+}
+
+    .topnav {
+      background-color: #eeeeee;
+      overflow: hidden;
+    }
+
+    .topnav div {
+      max-width: 1070px;
+      margin: 0 auto;
+    }
+
+    .topnav a {
+      display: inline-block;
+      color: black;
+      text-align: center;
+      vertical-align: middle;
+      padding: 16px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .topnav img {
+      width: 100%;
+      margin: 0.2em 0px 0.3em 0px;
+    }
+
+
+</style>
+<html>
+
+<head>
+    <title>DIB-R++</title>
+    <meta property="og:title" content="nlos" />
+</head>
+
+<body>
+
+	<div class="topnav" id="myTopnav">
+      <div>
+        <a href="https://www.nvidia.com/"
+          ><img width="100%" src="figures/nvidia.svg"
+        /></a>
+        <a href="https://nv-tlabs.github.io/"
+          ><strong>Toronto AI Lab</strong></a
+        >
+
+      </div>
+    </div>
+
+    <br>
+    <center>
+    <p>
+        <span style="font-size:42px">DIB-R++: Learning to Predict Lighting and <br> Material with a Hybrid Differentiable Renderer</span>
+    </p>
+    </center>
+    <br>
+    <table align=center width=900px>
+        <tr>
+            <td align=center width=150px>
+                <center>
+                    <span style="font-size:20px"><a href="http://www.cs.toronto.edu/~wenzheng/">Wenzheng Chen<sup> 1,2,3</sup></a></span>
+                </center>
+            </td>
+            <td align=center width=120px>
+                <center>
+                    <span style="font-size:20px"><a href="https://joeylitalien.github.io/">Joey Litalien<sup> 4</sup></a></span>
+                </center>
+            </td>
+            <td align=center width=120px>
+                <center>
+                    <span style="font-size:20px"><a href="http://www.cs.toronto.edu/~jungao/">Jun Gao<sup> 1,2,3</sup></a></span>
+                </center>
+            </td>
+            <td align=center width=120px>
+                <center>
+                    <span style="font-size:20px"><a href="http://www.cs.toronto.edu/~zianwang/">Zian Wang<sup> 1,2,3</sup></a></span>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <table align=center width=900px>
+        <tr>
+            <td align=center width=150px>
+                <center>
+                    <span style="font-size:20px"><a href="https://github.com/caenorst"> Clement Fuji Tsang <sup> 1</sup></a></span>
+                </center>
+            </td>
+            <td align=center width=120px>
+                <center>
+                    <span style="font-size:20px"><a href="https://www.samehkhamis.com/">Sameh Khamis<sup> 1</sup></a></span>
+                </center>
+            </td>
+            <td align=center width=120px>
+                <center>
+                    <span style="font-size:20px"><a href="https://orlitany.github.io/">Or Litany<sup> 1</sup></a></span>
+                </center>
+            </td>
+            <td align=center width=120px>
+                <center>
+                    <span style="font-size:20px"><a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler<sup> 1,2,3</sup></a></span>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table align=center width=900px>
+        <tr>
+            <td align=center width=100px>
+                <center>
+                    <span style="font-size:20px"><sup>1</sup>NVIDIA</span>
+                </center>
+            </td>
+            <td align=center width=100px>
+                <center>
+                    <span style="font-size:20px"><sup>2</sup>University of Toronto</span>
+                </center>
+            </td>
+            <td align=center width=100px>
+                <center>
+                    <span style="font-size:20px"><sup>3</sup>Vector Institute</span>
+                </center>
+            </td>
+            <td align=center width=100px>
+                <center>
+                    <span style="font-size:20px"><sup>4</sup>McGill University</span>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table align=center width=700px>
+        <tr>
+            <td align=center width=100px>
+                <center>
+                    <span style="font-size:25px"> NeurIPS 2021 </span> 
+                </center>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table align=center width=1000px>
+        <tr>
+            <td width=1000px>
+                <center>
+                    <a href="./figures/pipeline.png"><img src="./figures/pipeline.png" width="1000px" height="210px"></img></href></a><br>
+                </center>
+            </td>
+            <!-- <td width=450px>
+                        <center>
+                            <iframe width="448" height="280" src="https://www.youtube.com/embed/evGqMnL4P3E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                        
+                        </center>
+                    </td> -->
+        </tr>
+    </table>
+    <table align=center width=900px></table>
+    <tr>
+        <td width=600px>
+            <br>
+            <center>
+                <span style="font-size:14px"><i> We propose a new hybrid renderer which combines rasterization and ray tracing together. Given a 3D mesh M, we employ (a) a rasterization-based renderer to obtain diffuse albedo, surface normals and mask maps. In the shading pass (b), we then use these buffers to compute the incident radiance by sampling or by representing lighting and the specular BRDF using a spherical Gaussian basis. Depending on the representation used in (c), we can render with advanced lighting and material effect (d). </i>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td width=600px>
+            <br>
+            <p align="justify" style="font-size: 18px">
+                We consider the challenging problem of predicting intrinsic object properties from a single image by exploiting differentiable renderers. Many previous learning-based approaches for inverse graphics adopt rasterization-based renderers and assume naive lighting and material models, which often fail to account for non-Lambertian, specular reflections commonly observed in the wild. In this work, we propose DIB-R++, a hybrid differentiable renderer which supports these photorealistic effects by combining rasterization and ray-tracing, taking the advantage of their respective strengths—speed and realism. Our renderer incorporates environmental lighting and spatially-varying material models to efficiently approximate light transport, either through direct estimation or via spherical basis functions. Compared to more advanced physics-based differentiable renderers leveraging path tracing, DIB-R++ is highly performant due to its compact and expressive shading model, which enables easy integration with learning frameworks for geometry, reflectance and lighting prediction from a single image without requiring any ground-truth. We experimentally demonstrate that our approach achieves superior material and lighting disentanglement on synthetic and real data compared to existing rasterization-based approaches and showcase several artistic applications including material editing and relighting.
+            </p>
+        </td>
+    </tr>
+    </table>
+    <br>
+    <hr>
+    <!-- <table align=center width=550px> -->
+    <table align=center width=700>
+        <center>
+            <h1>Paper</h1>
+        </center>
+        <tr>
+            <td><a href="https://arxiv.org/abs/2111.00140"><img style="height:180px; border: solid; border-radius:30px;" src="./figures/paper.png" /></a></td>
+            <td><span style="font-size:16px"> Wenzheng Chen, Joey Litalien, Jun Gao, Zian Wang, <br> Clement Fuji Tsang, Sameh Khamis, Or Litany, Sanja Fidler<br><br>
+                    DIB-R++: Learning to Predict Lighting and <br> Material with a Hybrid Differentiable Renderer <br><br>
+                    NeurIPS 2021
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table align=center width=700px>
+        <tr>
+            <td>
+                <span style="font-size:18px">
+                    <center>
+                        <a href="https://arxiv.org/abs/2111.00140">[Arxiv Paper]</a>
+                    </center>
+            </td>
+            <td>
+                <span style="font-size:18px">
+                    <center>
+                        <a href="./bib.html">[Bibtex Citation]</a>
+                    </center>
+            </td>
+            <td><span style="font-size:18px">
+                    <center>
+                        <a href="">[Video Presentation]</a>
+                    </center>
+            </td>
+            <td><span style="font-size:18px">
+                    <center>
+                        <a href="">[Code Coming Soon!]</a>
+                    </center>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <!--      <table align=center width=700px>
+        <tr>
+                  <td colspan="5" style="font-size: 14px">
+                  <center>
+                      <i> Please address correspondence regarding this paper to <a href="mailto:sfidler@nvidia.com">Sanja Fidler</a>.</i>
+                  </center>
+                  </td>
+              </tr>
+      </table> -->
+    <br>
+    <hr>
+    <center>
+        <h1>Results</h1>
+    </center>
+    <center>
+                <span style="font-size:14px"><i> To align all the videos, please refresh the website. </i>
+    </center>
+    <br>
+
+    <br>
+    <table align=center width=1000px>
+        <tr>
+            <td>
+                <p align="justify">
+                    <span style="font-size:25px">
+                        <b>Jointly Predicting Geometry, Texture, Light and Material from <br> a Single-view Image without any 3D Supervision</b>
+                    </span>
+                    <br>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table align=center width=900px>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    GT
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/sg/gt.png"><img src="./videos/sg/gt.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/sg/light_gt.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/sg/alb_gt.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        <a href="./videos/sg/light_gt.png"><img src="./videos/sg/light_gt.png" alt="Computer Man" style="width:400px"></a><br>
+                    </center>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    DIB-R++
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/sg/dibrp.png"><img src="./videos/sg/tex_dibrp.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/sg/light_dibrp.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/sg/alb_dibrp.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        <a href="./videos/sg/light_dibrp.png"><img src="./videos/sg/light_dibrp.png" alt="Computer Man" style="width:400px"></a><br>
+                    </center>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    DIB-R
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/sg/dibr.png"><img src="./videos/sg/tex_dibr.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/sg/light_dibr.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/sg/alb_dibr.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        <a href="./videos/sg/light_dibr.png"><img src="./videos/sg/light_dibr.png" alt="Computer Man" style="width:400px"></a><br>
+                    </center>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Pred. Texture
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Render w. Light
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Render. w.o. Light
+                    </center>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        Pred. Spherical Gaussian Light
+                    </center>
+                </td>
+            </center>
+        </tr>
+    </table>
+    <table align=center width=1000px>
+        <tr>
+            <td>
+                <hr style="height:4pt; visibility:hidden;" />
+                <!–– Spacing -->
+                <p align="justify">
+                    <span style="font-size:18px">
+                        <strong> 3D Reconstruction on Glossy Surfaces with Spherical Gaussian Shading:</strong> Given an input image (1st row, 1st column), we predict 3D geometry, texture(1st column), spherical gaussian light(4th column) and material and render them with and without lighting effect(2nd & 3rd columns). We compare our model with GT(1st row) and our previous work, DIB-R(3rd row). <br> 
+                        DIB-R++ adopts SG shading, which can correctly disentangle reflectance from texture, as evidenced by the absence of white highlights in the predict textures. DIBR cannot capture these bright regions due to a diffuse-only shading model and predict textures which "bake in" specular lighting effect.
+                    </span>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <table align=center width=900px>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    GT
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/mc/gt.png"><img src="./videos/mc/gt.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/mc/light_gt.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/mc/alb_gt.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        <a href="./videos/mc/light_gt.png"><img src="./videos/mc/light_gt.png" alt="Computer Man" style="width:400px"></a><br>
+                    </center>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    DIB-R++
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/mc/dibrp.png"><img src="./videos/mc/tex_dibrp.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/mc/light_dibrp.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/mc/alb_dibrp.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        <a href="./videos/mc/light_dibrp.png"><img src="./videos/mc/light_dibrp.png" alt="Computer Man" style="width:400px"></a><br>
+                    </center>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    DIB-R
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/mc/dibr.png"><img src="./videos/mc/tex_dibr.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/mc/light_dibr.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/mc/alb_dibr.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        <a href="./videos/mc/light_dibr.png"><img src="./videos/mc/light_dibr.png" alt="Computer Man" style="width:400px"></a><br>
+                    </center>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Pred. Texture
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Rend. w. Light
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Rend. w.o. Light
+                    </center>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        Pred. Environment Map Light
+                    </center>
+                </td>
+            </center>
+        </tr>
+    </table>
+    <table align=center width=1000px>
+        <tr>
+            <td>
+                <hr style="height:4pt; visibility:hidden;" />
+                <!–– Spacing -->
+                <p align="justify">
+                    <span style="font-size:18px">
+                        <strong> 3D Reconstruction on Metallic Surfaces with Monte Carlo Shading:</strong> Given an input image (1st row, 1st column), we predict 3D geometry, texture(1st column), environment map light(4th column) and render them with and without lighting effect(2nd & 3rd columns). We compare our model with GT(1st row) and our previous work, DIB-R(3rd row). <br> 
+                        DIB-R++ correctly recovers the high frequency details of the sky light maps, while DIBR fails to separate the lighting from the albedo, resulting in the incorrect texture maps incorporating the ground dominant color.
+                    </span>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+
+
+    <br>
+    <br>
+    <br>
+    <table align=center width=1000px>
+        <tr>
+            <td>
+                <p align="justify">
+                    <span style="font-size:25px">
+                        <b>Real Imagery Reconstruction</b>
+                    </span>
+                    <br>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table align=center width=900px>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    GT
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/gan/gt2.png"><img src="./videos/gan/gt.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                </td>
+                <td colspan='1'>
+                </td>
+                <td colspan='2'>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    DIB-R++
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/gan/dibrp.png"><img src="./videos/gan/tex_dibrp.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/gan/light_dibrp.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/gan/alb_dibrp.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        <a href="./videos/gan/light_dibrp.png"><img src="./videos/gan/light_dibrp.png" alt="Computer Man" style="width:400px"></a><br>
+                    </center>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                    DIB-R
+                </td>
+                <td colspan='1'>
+                    <center>
+                        <a href="./videos/gan/dibr.png"><img src="./videos/gan/tex_dibr.png" alt="Computer Man" style="width:200px"></a><br>
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/gan/light_dibr.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='1'>
+                    <video width="200" height="200" controls muted autoplay loop>
+                        <source src="videos/gan/alb_dibr.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        <a href="./videos/gan/light_dibr.png"><img src="./videos/gan/light_dibr.png" alt="Computer Man" style="width:400px"></a><br>
+                    </center>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='1'>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Pred. Texture
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Rend. w. Light
+                    </center>
+                </td>
+                <td colspan='1'>
+                    <center>
+                        Rend. w.o. Light
+                    </center>
+                </td>
+                <td colspan='2'>
+                    <center>
+                        Pred. Spherical Gaussian Light
+                    </center>
+                </td>
+            </center>
+        </tr>
+    </table>
+    <table align=center width=1000px>
+        <tr>
+            <td>
+                <hr style="height:4pt; visibility:hidden;" />
+                <!–– Spacing -->
+                <p align="justify">
+                    <span style="font-size:18px">
+                        <strong> 3D Reconstruction on GAN-generated Dataset with Spherical Gaussian Shading:</strong> We further verify our model on realistic image dataset generated by StyleGAN.
+                        DIBR++ can recover a meaningful decomposition of texture and light, as shown by cleaner texture maps and directional highlights in the re-rendered videos. On the other side, DIB-R fails
+                         to capture specular lighting effect due to its naive shading model.
+                    </span>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+
+    <br>
+    <br>
+    <br>
+    <table align=center width=900px>
+        <tr>
+            <center>
+                <td colspan='2'>
+                    <video width="400" height="400" controls muted autoplay loop>
+                        <source src="videos/lsun/200012-all-font.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <video width="400" height="400" controls muted autoplay loop>
+                        <source src="videos/lsun/200011-all-font.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </center>
+        </tr>
+        <tr>
+            <center>
+                <td colspan='2'>
+                    <video width="400" height="400" controls muted autoplay loop>
+                        <source src="videos/lsun/200007-all-font.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td colspan='2'>
+                    <video width="400" height="400" controls muted autoplay loop>
+                        <source src="videos/lsun/200000-all-font.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </center>
+        </tr>
+    </table>
+    <table align=center width=1000px>
+        <tr>
+            <td>
+                <hr style="height:4pt; visibility:hidden;" />
+                <!–– Spacing -->
+                <p align="justify">
+                    <span style="font-size:18px">
+                        <strong> 3D Reconstruction on LSUN Dataset with Spherical Gaussian Shading:</strong> Lastly, we verify our model on real images. DIB-R++, trained on StyleGAN dataset, can generalize well to real images since the distributions are similar. Moreover, it also predicts correct high specular lighting directions and usable, clean textures.
+                    </span>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+</body>
+
+</html>

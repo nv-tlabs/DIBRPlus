@@ -1,1 +1,1 @@
-# GANverse3D
+# DIB-R++
